@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5em;
+    background-color: peachpuff;
+}
+
+.bigOne {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    align-items: center;
+}
+
+.bigOne div {
+    width: 50%;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.container {
+    height: 70vh;
+    border: 5px solid black;
+    padding: 25px;
+    margin: 5px;
+    line-height: 60px;
+    font-size: 1.5em;
+}
+
+.center {
+    text-align: center;
+    padding: 15px;
+}
+
+#bothchange {
+    width: 350px;
+    cursor: pointer;
+}
+
+.container1 {
+    background-color: rgb(154, 134, 195);
+}
+
+.container2 {
+    background-color: #a87932;
+}
+
+@media only screen and (max-width: 808px) {
+    h1 {
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (max-width: 600px)  {
+    .container {
+        height: 30vh;
+    }
+
+    .bigOne {
+        flex-direction: column;
+    }
+
+    .bigOne div {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .container {
+        height: 15vh;
+        font-size: 1rem;
+        line-height: 30px;
+    }
+
+    #bothchange {
+        width: 120px;
+        height: 40px;
+        cursor: pointer;
+    }
+}
