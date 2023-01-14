@@ -1,2 +1,2 @@
 # Javascript-Projects
-Random Javascript projects
+Javascript Projects that could add value to websites such as hamburger, switching between white and dark theme and etc.
